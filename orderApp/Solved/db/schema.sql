@@ -1,5 +1,5 @@
 ### Schema
-
+DROP TABLE IF EXISTS
 CREATE DATABASE burgers_db;
 USE burgers_db;
 

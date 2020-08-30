@@ -2,7 +2,7 @@
 $(function() {
   $(".change-devour").on("click", function(event) {
     var id = $(this).data("id");
-    var newDevour = $(this).data("newDevour");
+    var newDevour = $(this).data("newdevour");
 
     var newDevourState = {
       devour: newDevour
@@ -27,7 +27,7 @@ $(function() {
 
     var newBurger = {
       name: $("#ca").val().trim(),
-      sleepy: $("[name=devour]:checked").val().trim()
+      devour: $("[name=devour]:checked").val().trim()
     };
 
     // Send the POST request.
